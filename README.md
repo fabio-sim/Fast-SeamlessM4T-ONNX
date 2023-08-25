@@ -7,8 +7,8 @@ ONNX-compatible SeamlessM4T—Massively Multilingual & Multimodal Machine Transl
 
 - [x] Text Encoder
 - [ ] Speech Encoder
-- [ ] Generator (Beam Search)
-- [ ] Text Decoder
+- [ ] Generator (Beam Search) - looks like this is too dynamic (`fairseq`'s `Seq2SeqGenerator`)
+- [ ] Text Decoder - difficult to make stateless (blocked by `IncrementalStateBag`)
 - [ ] Unit Encoder
 - [ ] Unit Decoder
 - [ ] Vocoder
